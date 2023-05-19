@@ -1,0 +1,43 @@
+html, body {
+    height: 100%;
+    background-color: rgba(250, 0, 0, 0.377);
+    background-image: url("galeria/Isaac_background_2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: screen;
+}
+.heading{
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    position: absolute;
+    top: 0px; bottom: 0px; right: 0px; left: 0px;
+}
+.title {
+    color: white;
+    text-shadow: 7px 7px 1px black;
+    text-align: center;
+    font-size: 80px;
+    font-family: "Impact", "fantasy";
+    font-weight: normal;
+    margin: 10px auto;
+}
+.button{
+    height: 175px;
+    width: 175px;
+    margin: 50px auto;
+    display: block    
+}
+.button img {
+    height: 175px;
+    width: 175px;
+    position:absolute;
+    
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+.closed:hover{
+    opacity:0;
+}

@@ -1,0 +1,163 @@
+html{
+    background-color: black;
+    color: white;
+    scroll-behavior: smooth;
+}
+.main{
+    width: 95%;
+    margin: 2.5%;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    margin: 30px 100px 100px;
+}
+.heading img{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+.background_element{
+    height:600px;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 700px;
+}
+.text{
+    width: 80%;
+    font-size: 20px;
+    text-align: center;
+    margin:auto;
+    height: 500px;
+}
+#Isaac_about{
+    width: 400px;
+
+}
+.title{
+    width: 80%;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 50px auto;
+    text-align: center;
+}
+.characters{
+    background-image: url("galeria/background_2.jpg");
+    background-size: 1352px 900px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 150px auto;
+}
+.characters img{
+    width: 200px;
+    height: 270px;
+}
+.character_container{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 50px auto;
+    justify-content: flex-start;
+}
+.character_inside_container{
+    width: 200px;
+    margin: auto 50px;
+}
+.character_text{
+    width: 400px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+}
+#menu {
+    width:100%;
+    margin:0 auto;
+    padding:0;
+    list-style-type:none;
+    background-color:rgb(0, 0, 0);
+  }
+
+  #menu:after {
+    content:'';
+    display:block;
+    clear:both;
+  }
+
+  #menu > li {
+    float:left;
+  }
+
+  #menu > li:first-child {
+    width:30%;
+  }
+
+  #menu > li:first-child + li {
+    width:40%;
+  }
+
+  #menu > li:first-child + li + li {
+    width:30%;
+  }
+
+
+  #menu > li > a {
+    display:block;
+    padding:15px;
+    text-decoration:none;
+    font-weight: bold;
+    text-align:center;
+    color:#000;
+    background-color:#000000;
+    box-shadow:0 0 0 1px #000000 inset;
+    background-image: url("galeria/menu_background_2.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  #menu > li:hover > a {
+    color:rgb(255, 0, 0);
+    background-image:url("galeria/menu_background_2.png");
+  }
+  #menu_2 {
+    list-style-type:none;
+    position: fixed;
+    left: 0;
+    top: 50%;
+    width: 75px;
+    height: 100px;
+    margin-top: -2.5em;
+    background-image: url("galeria/menu_2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 25px;
+  }
+  #menu_2 > li > a {
+    font-weight: bold;
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+  }
+  @media screen and (max-width: 1150px){
+
+    #about_3{
+        visibility: hidden;
+        display: none;
+    }
+  }
+  @media screen and (max-width: 800px){
+
+    #about_1{
+        visibility: hidden;
+        display: none;
+    }
+}
